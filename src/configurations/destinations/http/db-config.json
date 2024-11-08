@@ -1,6 +1,6 @@
 {
   "name": "HTTP",
-  "displayName": "HTTP",
+  "displayName": "HTTP Webhook",
   "config": {
     "cdkV2Enabled": true,
     "transformAtV1": "router",
@@ -122,6 +122,10 @@
   },
   "options": {
     "isBeta": true,
-    "hidden": true
+    "hidden": {
+      "featureFlagName": "AMP_http_webhook",
+      "featureFlagValue": false
+    },
+    "secondPositionRedirectComponent": true
   }
 }

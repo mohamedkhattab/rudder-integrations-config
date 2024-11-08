@@ -2,6 +2,67 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.97.2](https://github.com/rudderlabs/rudder-config-schema/compare/v1.97.1...v1.97.2) (2024-11-07)
+
+
+### Bug Fixes
+
+* webhook url regex to support ports with valid dns ([#1788](https://github.com/rudderlabs/rudder-config-schema/issues/1788)) ([3d91ced](https://github.com/rudderlabs/rudder-config-schema/commit/3d91ced7213453e1c7c8128c0367ac13cf3cc868))
+
+### [1.97.1](https://github.com/rudderlabs/rudder-config-schema/compare/v1.97.0...v1.97.1) (2024-11-01)
+
+
+### Bug Fixes
+
+* **MP:** now showing setOnceProperties in cloud mode also ([#1779](https://github.com/rudderlabs/rudder-config-schema/issues/1779)) ([760e5cb](https://github.com/rudderlabs/rudder-config-schema/commit/760e5cbcc43c4661a5f0c9bd3ae0762f8b3fb43e))
+
+## [1.97.0](https://github.com/rudderlabs/rudder-config-schema/compare/v1.96.0...v1.97.0) (2024-10-25)
+
+
+### Features
+
+* gainsight px device mode support ([#1741](https://github.com/rudderlabs/rudder-config-schema/issues/1741)) ([fae32ff](https://github.com/rudderlabs/rudder-config-schema/commit/fae32ff1d659308effc2b2a83034006abc1d9dfd))
+* mixpanel session replay ([#1760](https://github.com/rudderlabs/rudder-config-schema/issues/1760)) ([c6c2124](https://github.com/rudderlabs/rudder-config-schema/commit/c6c21249ffe4ef158e1f727043dcc9042ab8faaf))
+* onboard mixpanel on new form builder ([#1733](https://github.com/rudderlabs/rudder-config-schema/issues/1733)) ([9e2d536](https://github.com/rudderlabs/rudder-config-schema/commit/9e2d536cba53e1d031cb5767d3867378d4489ef1))
+* onboard tune destination ([#1744](https://github.com/rudderlabs/rudder-config-schema/issues/1744)) ([2565f39](https://github.com/rudderlabs/rudder-config-schema/commit/2565f39709cb581244257f4aaa43b57f0272b7da))
+* onboarding intercom v2 destination ([#1655](https://github.com/rudderlabs/rudder-config-schema/issues/1655)) ([11494f2](https://github.com/rudderlabs/rudder-config-schema/commit/11494f2bbbe944b0e2a6263db990812440765128))
+* snowpipe streaming ([#1688](https://github.com/rudderlabs/rudder-config-schema/issues/1688)) ([ae753c7](https://github.com/rudderlabs/rudder-config-schema/commit/ae753c7cc7d3a3e1bef00ad3b2f700841da3ce32))
+* ssh config for RS and POSTGRES destinations ([#1751](https://github.com/rudderlabs/rudder-config-schema/issues/1751)) ([b7d98d2](https://github.com/rudderlabs/rudder-config-schema/commit/b7d98d2d034646fac05a6569af319bf78021f708))
+
+## [1.96.0](https://github.com/rudderlabs/rudder-config-schema/compare/v1.95.1...v1.96.0) (2024-10-24)
+
+
+### Features
+
+* add sprig mobile device mode support ([#1764](https://github.com/rudderlabs/rudder-config-schema/issues/1764)) ([8f81c06](https://github.com/rudderlabs/rudder-config-schema/commit/8f81c06e4e6e1d50a064bf9322ea4c586c9918f5))
+
+### [1.95.1](https://github.com/rudderlabs/rudder-config-schema/compare/v1.95.0...v1.95.1) (2024-10-14)
+
+
+### Features
+
+* posthog person profile option ([#1747](https://github.com/rudderlabs/rudder-config-schema/issues/1747)) ([03b918d](https://github.com/rudderlabs/rudder-config-schema/commit/03b918d3f7454f432df494106a4130b40cd68152))
+
+
+### Bug Fixes
+
+* http destination fixes ([#1740](https://github.com/rudderlabs/rudder-config-schema/issues/1740)) ([1c3809e](https://github.com/rudderlabs/rudder-config-schema/commit/1c3809e6530086534833ae27e26560aeb5c30482))
+
+## [1.95.0](https://github.com/rudderlabs/rudder-config-schema/compare/v1.94.2...v1.95.0) (2024-10-09)
+
+
+### Features
+
+* add Iubenda support to ga4 destination ([#1691](https://github.com/rudderlabs/rudder-config-schema/issues/1691)) ([2ef7ae4](https://github.com/rudderlabs/rudder-config-schema/commit/2ef7ae497b3bad172024d1eeb54beb223ddf296a))
+* added test cases ([#1659](https://github.com/rudderlabs/rudder-config-schema/issues/1659)) ([6339410](https://github.com/rudderlabs/rudder-config-schema/commit/6339410ecec4f6739df44383b866b82662642ae6))
+* onboard Amazon Audience ([#1667](https://github.com/rudderlabs/rudder-config-schema/issues/1667)) ([d841adf](https://github.com/rudderlabs/rudder-config-schema/commit/d841adfc5103978a6a83412a51a00f87a9b7f28f))
+
+
+### Bug Fixes
+
+* add new field for list of props ([#1734](https://github.com/rudderlabs/rudder-config-schema/issues/1734)) ([d45386b](https://github.com/rudderlabs/rudder-config-schema/commit/d45386b4081d0d910b078c073147257842b78772))
+* webhook regex url ([#1743](https://github.com/rudderlabs/rudder-config-schema/issues/174)) ([3435280](https://github.com/rudderlabs/rudder-config-schema/commit/3435280b68b6dbf30bdeddc751143994ad07f3f4))
+
 ### [1.94.2](https://github.com/rudderlabs/rudder-config-schema/compare/v1.94.1...v1.94.2) (2024-10-04)
 
 
